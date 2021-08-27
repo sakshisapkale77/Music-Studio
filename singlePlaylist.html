@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Playlist Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+  <div class="full-page-wrap">
+    <!--nav bar-->
+    <nav>
+      <!--Left Side Nav Part-->
+      <div class="left-nav-side">
+        <div class="logo">
+          <i class="fas fa-music"></i>
+          <span>Ninja<br /><b>Studio</b> </span>
+        </div>
+        <span id="fvrt"><a href="index.html">Home</a></span>
+      </div>
+      <!---Right Side Nav Part-->
+      <div class="right-nav-side">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search" />
+          <i class="fas fa-microphone"></i>
+        </div>
+        <i id="bell" class="fas fa-bell"></i>
+        <i id="user" class="fas fa-user"></i>
+      </div>
+    </nav>
+
+    <!--main section-->
+    <div class="main-container padding">
+      <!--Left Section Play songs-->
+      <div class="play-songs">
+        <!-- coldplay card-->
+        <div class="card">
+          <img src="images/coldplay.jpg" alt="" />
+          <div class="about-coldplay">
+            <div class="coldplay-head">
+              <h2>ColdPlay</h2>
+              <span>851 Followers</span>
+            </div>
+            <h4>British Band</h4>
+            <p>
+              Coldplay are a British rock band formed in London. Vocalist,
+              rhythm guitarist and pianist Chris Martin, lead guitarist Jonny
+              Buckland, bassist Guy Berryman, and drummer Will Champion met.
+            </p>
+            <div class="btn-follow">
+              <div class="btn-wrap">
+                <button>Play All</button>
+                <span>247 Tracks | 128 Albumss</span>
+              </div>
+              <span>Follow</span>
+            </div>
+          </div>
+        </div>
+
+        <!--left play songs list-->
+        <div class="left-play-song">
+
+            <div class="single-songs-container grey-background">
+                <div class="wrapper">
+                <span>01</span>
+                <img src="images/pic8.jpg" alt="">
+                <span class="song name">
+                    <h4>Mirage</h4>
+                    <span>Else</span>
+                </span>
+                </div>
+                <div class="plus">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+            <div class="single-songs-container grey-background">
+                <div class="wrapper">
+                <span>02</span>
+                <img src="images/pic7.jpg" alt="">
+                <span class="song name">
+                    <h4>Worry Bout Us</h4>
+                    <span>Rosie Lowe</span>
+                </span>
+                </div>
+                <div class="plus">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+            <div class="single-songs-container grey-background">
+                <div class="wrapper">
+                <span>03</span>
+                <img src="images/pic4.jpg" alt="">
+                <span class="song name">
+                    <h4>New Skin</h4>
+                    <span>Flume</span>
+                </span>
+                </div>
+                <div class="plus">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+            <div class="single-songs-container grey-background">
+                <div class="wrapper">
+                <span>04</span>
+                <img src="images/pic9.jpg" alt="">
+                <span class="song name">
+                    <h4>Worry Bout Us</h4>
+                    <span>Rosie Lowe</span>
+                </span>
+                </div>
+                <div class="plus">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+            <div class="single-songs-container grey-background">
+                <div class="wrapper">
+                <span>05</span>
+                <img src="images/pic3.jpg" alt="">
+                <span class="song name">
+                    <h4>Mirage</h4>
+                    <span>Else</span>
+                </span>
+                </div>
+                <div class="plus">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+            <div class="single-songs-container grey-background">
+                <div class="wrapper">
+                <span>06</span>
+                <img src="images/pic6.jpg" alt="">
+                <span class="song name">
+                    <h4>New Skin</h4>
+                    <span>Flume</span>
+                </span>
+                </div>
+                <div class="plus">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+
+
+
+
+        </div><!--left play song list-->
+      </div>
+      <!--play songs-->
+
+      <!--Right Section MyPlaylist-->
+      <div class="right-side">
+            <!--Similar Artist-->
+            <div class="similar-artist">
+                <div class="view-all">
+                    <h4>Similar Artist</h4>
+                    <span>View All</span>
+                </div>
+                <div class="similar-artist-container ">
+                    <div class="similar-outer">
+                      <img src="images/pic9.jpg" alt="">
+                      <span  id="onism"><b>Onism</b><br>AUG 11,2017</span></span>
+                      <span id="dots">
+                        <i class="fas fa-ellipsis-h"></i>
+                        4.18
+                      </span>
+                    </div>
+                    <div class="similar-outer">
+                      <img src="images/pic9.jpg" alt="">
+                      <span  id="onism"><b>Onism</b><br>AUG 11,2017</span></span>
+                      <span id="dots">
+                        <i class="fas fa-ellipsis-h"></i>
+                        4.18
+                      </span>
+                    </div>
+                    <div class="similar-outer">
+                        <img src="images/pic9.jpg" alt="">
+                        <span id="onism"><b>Onism</b><br>AUG 11,2017</span></span>
+                        <span id="dots">
+                          <i class="fas fa-ellipsis-h"></i>
+                          4.18
+                        </span>
+                      </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!--Recently Played-->
+            <div class="recently-played">
+                <div class="view-all">
+                    <h4>Recently Played</h4>
+                    <span>View All</span>
+                </div>
+                <div class="all-songs-container">
+                    <div class="single-songs-container">
+                      <div class="wrapper">
+                        <span>01</span>
+                        <img src="images/pic8.jpg" alt="">
+                        <span class="song name">
+                          <h4>Mirage</h4>
+                          <span>Elan</span>
+                        </span>
+                      </div>
+                      <i class="far fa-heart"></i>
+                    </div>
+          
+                    <div class="single-songs-container">
+                        <div class="wrapper">
+                            <span>02</span>
+                            <img src="images/pic7.jpg" alt="">
+                            <span class="song name">
+                            <h4>Mirage</h4>
+                            <span>Elan</span>
+                            </span>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+
+                    <div class="single-songs-container">
+                            <div class="wrapper">
+                            <span>05</span>
+                            <img src="images/pic4.jpg" alt="">
+                            <span class="song name">
+                                <h4>Mirage</h4>
+                                <span>Elan</span>
+                            </span>
+                            </div>
+                            <i class="far fa-heart"></i>
+                    </div>
+
+                    <div class="single-songs-container">
+                        <div class="wrapper">
+                        <span>04</span>
+                        <img src="images/pic9.jpg" alt="">
+                        <span class="song name">
+                            <h4>Mirage</h4>
+                            <span>Elan</span>
+                        </span>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+
+                    <div class="single-songs-container">
+                        <div class="wrapper">
+                        <span>03</span>
+                        <img src="images/pic3.jpg" alt="">
+                        <span class="song name">
+                            <h4>Mirage</h4>
+                            <span>Elan</span>
+                        </span>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      <!--right side-->
+      
+      <div class="play-bottom-section single-pbs">
+        <div class="img-song">
+          <img src="images/pic6.jpg" alt="">
+          <span class="song-name">
+            <h4>Imagine</h4>
+            <span>John Lennon</span>
+          </span>
+          <i class="far fa-heart"></i>
+          <i class="fas fa-ban"></i>
+        </div>
+
+        <div class="play-status">
+          <div class="play-stop">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i id = "pause"class="far fa-pause-circle"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-redo"></i>
+          </div>
+          <div class="progress-bar">
+            <div class="green"></div>
+          </div>
+        </div>
+      
+        <div class="other-zoom">
+          <i class="fas fa-list"></i>
+          <i class="fas fa-desktop"></i>
+          <i class="fas fa-volume-up"></i>
+          <div class="progress-bar">
+            <div class="green"></div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!--main container-->
+  </div>
+  </body>
+</html>

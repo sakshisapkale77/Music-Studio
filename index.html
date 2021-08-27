@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Studio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--nav bar-->
+  <div class="homepage">
+    <nav>
+      <!--Left Side Nav Part-->
+      <div class="left-nav-side">
+        <div class="logo">
+          <i class="fas fa-music"></i>
+          <span>Music<br /><b>Studio</b> </span>
+        </div>
+        <span id="fvrt"><a href="singlePlaylist.html">Favourites</a></span>
+      </div>
+      <!---Right Side Nav Part-->
+      <div class="right-nav-side">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search" />
+          <i class="fas fa-microphone"></i>
+        </div>
+        <i id="bell" class="fas fa-bell"></i>
+        <i id="user" class="fas fa-user"></i>
+      </div>
+    </nav>
+
+    <!--main section-->
+    <div class="main-container">
+      <!--Left Section Play songs-->
+      <div class="play-songs">
+        <!--slider-->
+        <div class="slider">
+          <img src="images/pic5.jpg" />
+          <img src="images/pic1.jpg" />
+          <img id="slider-last"src="images/pic2.jpg" />
+        </div>
+        <!--Latest Release-->
+        <div class="latest-release">
+          <h4>Latest Release</h4>
+          <div class="latest-song-container">
+              <div class="outer">
+                <img src="images/pic6.jpg" alt="">
+                <span><b>Onism</b><br>AUG 11,2017</span></span>
+                <span id="dots">
+                  <i class="fas fa-ellipsis-h"></i>
+                  4.18
+                </span>
+              </div>
+              <div class="outer">
+                <img src="images/pic6.jpg" alt="">
+                <span><b>Onism</b><br>AUG 11,2017</span></span>
+                <span id="dots">
+                  <i class="fas fa-ellipsis-h"></i>
+                  4.18
+                </span>
+              </div>
+          </div><!--latest song container-->
+
+          <div id="second-outer"class="latest-song-container">
+            <div class="outer">
+              <img src="images/pic6.jpg" alt="">
+              <span><b>Onism</b><br>AUG 11,2017</span></span>
+              <span id="dots">
+                <i class="fas fa-ellipsis-h"></i>
+                4.18
+              </span>
+            </div>
+            <div class="outer">
+              <img src="images/pic6.jpg" alt="">
+              <span><b>Onism</b><br>AUG 11,2017</span></span>
+              <span id="dots">
+                <i class="fas fa-ellipsis-h"></i>
+                4.18
+              </span>
+            </div>
+          </div><!--latest song container-->
+        </div><!--latest release-->
+        <!--Popular songs-->
+        <div class="popular-artist">
+          <h4>Popular Artists</h4>
+          <div class="artist-pics-container">
+            <div>
+                <img src="images/singer1.jpg" alt="">
+                <h3>Ed Sheeran</h3>
+            </div>
+            <div>
+              <img src="images/singer8.jpg" alt="">
+              <h3>Nick Jonas</h3>
+            </div>
+            <div>
+              <img src="images/singer4.jpg" alt="">
+              <h3>Rihanna</h3>
+            </div>
+            <div id="p-img">
+              <img src="images/singer2.jpg" alt="">
+              <h3>Zyad Malik</h3>
+            </div>
+            <div id="p-img">
+              <img src="images/singer3.jpg" alt="">
+              <h3>Justin Biber</h3>
+            </div>
+            <div id="p-img">
+              <img src="images/singer6.jpg" alt="">
+              <h3>selena gomez</h3>
+            </div>
+          </div><!--artist pics container-->
+        </div><!--popular artists-->
+
+        <!--type of songs-->
+        <div class="type-song-container">
+            <div class="First">
+                <img src="images/pp1.jpg" alt="">
+            </div>
+            <div class="second">
+              <img src="images/pp2.jpg" alt="">
+            </div>
+            <div class="third">
+              <img src="images/pp3.jpg" alt="">
+            </div>
+            <div class="fourth">
+              <img src="images/pp4.jpg" alt="">
+            </div>
+            <div class="fifth">
+              <img src="images/pp5.jpg" alt="">
+            </div>
+            <div class="sixth">
+              <img src="images/pp6.jpg" alt="">
+            </div>
+        </div><!--popular artists-->
+
+        <div class="party-section">
+          <img src="images/party.jpg" alt="">
+          <img id="dance" src="images/electronic.jpg" alt="">
+          <img id="dance" src="images/roadtrip.jpg" alt="">
+        </div>
+
+        <!--latest  english songs-->
+        <div class="latest-english">
+          <H3>Latest English Songs</H3>
+          <div class="latest-english-song-container">
+            <div>
+              <img src="images/pic4.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div>
+              <img src="images/pic9.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-o-img">
+              <img src="images/pic3.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-img">
+              <img src="images/pic7.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-img">
+              <img src="images/pic8.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-img">
+              <img src="images/pic4.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+          </div>
+        </div>
+
+
+        <!--latest hindi songs-->
+
+        <div class="latest-english">
+          <H3>Latest English Songs</H3>
+          <div class="latest-english-song-container">
+            <div>
+              <img src="images/pic4.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div>
+              <img src="images/pic9.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-o-img">
+              <img src="images/pic3.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-img">
+              <img src="images/pic7.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-img" >
+              <img src="images/pic8.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+            <div id="ls-img">
+              <img src="images/pic4.jpg" alt="">
+                <span class="song name">
+                  <h4>Onism</h4>
+                  <span>AUG 11,2017</span>
+                </span>
+            </div>
+          </div>
+        </div>
+
+
+      </div><!--play songs-->
+
+
+      <!--Right Section MyPlaylist-->
+      <div class="myplaylist">
+        <h3>My Playlist</h3>
+        <div class="queue-div">
+          <select  id="type-select">
+            <option value="Queue" selected>Queue</option>
+            <option value="playlist">Playlist</option>
+            <option value="favourite songs">Favourite songs</option>
+          </select>
+        </div>
+        <div class="all-songs-container">
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>01</span>
+              <img src="images/pic4.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>02</span>
+              <img src="images/pic9.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>03</span>
+              <img src="images/pic3.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>04</span>
+              <img src="images/pic7.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>05</span>
+              <img src="images/pic8.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>06</span>
+              <img src="images/pic4.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>07</span>
+              <img src="images/pic9.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>08</span>
+              <img src="images/pic3.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+          <div class="single-songs-container">
+            <div class="wrapper">
+              <span>09</span>
+              <img src="images/pic7.jpg" alt="">
+              <span class="song name">
+                <h4>Mirage</h4>
+                <span>Elan</span>
+              </span>
+            </div>
+            <i class="far fa-heart"></i>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div class="play-bottom-section">
+        <div class="img-song">
+          <img src="images/pic6.jpg" alt="">
+          <span class="song-name">
+            <h4>Imagine</h4>
+            <span>John Lennon</span>
+          </span>
+          <i id="ii" class="far fa-heart"></i>
+          <i id="ii" class="fas fa-ban"></i>
+        </div>
+
+        <div class="play-status">
+          <div class="play-stop">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i id = "pause"class="far fa-pause-circle"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-redo"></i>
+          </div>
+          <div class="progress-bar">
+            <div class="green"></div>
+          </div>
+        </div>
+      
+        <div class="other-zoom">
+          <i class="fas fa-list"></i>
+          <i class="fas fa-desktop"></i>
+          <i class="fas fa-volume-up"></i>
+          <div class="progress-bar">
+            <div class="green"></div>
+          </div>
+        </div>
+      </div>
+
+
+   
+    </div><!--main container-->
+  </div><!--homepage-->
+  </body>
+</html>
